@@ -194,8 +194,8 @@
             ${f.boroname}<br>
             <hr style="margin:4px 0;border:none;border-top:1px solid #ddd">
             Hydrants: <strong>${f.hydrant_count}</strong><br>
-            Area: ${f.area_km2} km²<br>
-            Density: <strong>${f.hydrants_per_km2} / km²</strong>
+            Area: ${Number(f.area_km2).toFixed(2)} km²<br>
+            Density: <strong>${Number(f.hydrants_per_km2).toFixed(1)} hydrants/km²</strong>
         `;
 
         new maplibregl.Popup({ maxWidth: '240px' })

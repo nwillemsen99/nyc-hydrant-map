@@ -4,6 +4,8 @@ An interactive webmap based on my [nyc-spatial-analysis](https://github.com/nwil
 
 [Open the interactive map](https://nwillemsen99.github.io/nyc-hydrant-map/)
 
+Run locally: ``npx --yes http-server . -p 8080 --cors -c-1``
+
 ![NYC Hydrant Density Map Screenshot](images/nyc-hydrant-map-screenshot.png)
 
 ## Data
