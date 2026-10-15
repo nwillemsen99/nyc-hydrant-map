@@ -1,0 +1,22 @@
+# Local dependencies and Python environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local configuration and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Source inputs kept locally for conversion
+/data/raw/
+
+# Operating system and editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
